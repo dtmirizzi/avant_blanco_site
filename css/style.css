@@ -1,0 +1,189 @@
+#hero {
+    height:100vh;
+    width:100%;
+    background:rgb(150, 150, 150);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+#hero::after {
+width:100%;
+height:100%;
+content: '';
+position:absolute;
+z-index:10;
+top:0;
+left:0;
+background:rgba(255, 255, 255, 0.349)
+}
+
+
+#hero video {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+z-index:5;
+object-fit:cover;
+font-family:'object-fit: cover';
+}
+
+
+#hero .caption {
+position:relative;
+z-index:20;
+text-align:center;
+color:#ffffff;
+}
+
+
+#hero .caption h1 {
+text-transform: uppercase;
+font-size:3rem;
+font-family: 'Lato', sans-serif;
+margin-bottom:1.5rem;
+}
+
+#hero .caption h2 {
+font-weight:400;
+font-size: 1rem;
+margin:0;
+margin-bottom: 1rem;
+font-family: 'Lato', sans-serif;
+}
+
+
+
+@media screen and (min-width:768px)
+{
+#hero .caption h1 {
+    font-size:3rem;
+}
+
+#hero .caption h2 {
+    font-size:1.75rem;
+}
+}
+
+
+
+
+@media screen and (min-width:992px)
+{
+#hero .caption h1 {
+    font-size:3rem;
+}
+
+#hero .caption h2 {
+    font-size:2rem;
+}
+}
+
+
+
+@media screen and (min-width:1200px)
+{
+#hero .caption h1 {
+    font-size:4rem;
+}
+
+#hero .caption h2 {
+    font-size:2.5rem;
+}
+}
+
+#hero .captionp {
+    position:relative;
+    z-index:20;
+    text-align:center;
+    color:#ffffff;
+    padding: 5rem 5rem;
+    background: rgba(255, 255, 255, 0.20);
+    }
+    
+    
+    #hero .captionp h1 {
+    text-transform: uppercase;
+    font-size:3rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom:1.5rem;
+    }
+    
+    #hero .captionp h2 {
+    font-weight:400;
+    font-size: 1rem;
+    margin:0;
+    margin-bottom: 5rem;
+    font-family: 'Lato', sans-serif;
+    }
+
+    #hero .captionp p {
+        font-weight:400;
+        font-size: 2rem;
+        margin:0;
+        margin-bottom: 5rem;
+        font-family: 'Lato', sans-serif;
+        }
+    
+    
+    @media screen and (min-width:768px)
+    {
+    #hero .captionp h1 {
+        font-size:3rem;
+    }
+    
+    #hero .captionp h2 {
+        font-size:1.75rem;
+    }
+    }
+    
+    
+    
+    
+    @media screen and (min-width:992px)
+    {
+    #hero .captionp h1 {
+        font-size:3rem;
+    }
+    
+    #hero .captionp h2 {
+        font-size:2rem;
+    }
+    }
+    
+    
+    
+    @media screen and (min-width:1200px)
+    {
+    #hero .captionp h1 {
+        font-size:4rem;
+    }
+    
+    #hero .captionp h2 {
+        font-size:2.5rem;
+    }
+    }
+
+
+.btn {
+    border: 2px ;
+    background-color: rgba(255, 255, 255, 0);
+    padding: .75rem .5rem;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+  }
+
+  /* Gray */
+.default {
+    border-color: #fdfdfd00;
+    color: rgb(255, 255, 255);
+  }
+  
+  .default:hover {
+    background: #ffffff33;
+  }
