@@ -32,6 +32,13 @@ object-fit:cover;
 font-family:'object-fit: cover';
 }
 
+#hero .captionbd {
+    position:relative;
+    z-index:20;
+    text-align:center;
+    color:#ffffff;
+    background: rgba(255, 255, 255, 0.20);
+}
 
 #hero .caption {
 position:relative;
